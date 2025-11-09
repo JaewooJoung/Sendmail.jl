@@ -1,0 +1,12 @@
+name = "Sendmail"
+uuid = "d9242437-771e-4b24-8114-d88d07688f05"
+authors = ["Jaewoo Joung <jaewoo.joung@outlook.com>"]
+version = "1.0.0"
+
+[deps]
+LibCURL = "b27032c2-a3e7-50c8-80cd-2d36dbcbfd21"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+[compat]
+julia = "1.6"
+LibCURL = "0.6"
