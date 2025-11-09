@@ -1,3 +1,14 @@
+#════════════════════════════════════════════════════════════════════════════════
+# 📧 SENDMAIL MODULE
+#════════════════════════════════════════════════════════════════════════════════
+# 📁 File:      Sendmail.jl
+# 📝 Brief:     Simple and reliable email sending via SMTP with SSL/TLS support
+# 🔧 Features:  SMTP send, TOML config, SSL/TLS, CC/BCC, Priority levels
+# 👤 Author:    Jaewoo Joung 郑在祐 (jaewoo.joung@outlook.com)
+# 🏢 Company:   Volvo Group Purchasing
+# 📅 Updated:   2025-11-09
+# 📜 License:   MIT License & JSD (Just Simple Distribution)
+
 module Sendmail
 
 using LibCURL
